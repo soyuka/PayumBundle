@@ -38,7 +38,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "payum/core": "^1.7.2",
+        "payum/core": "dev-master",
         "symfony/framework-bundle": "^4.4 || ^5.4 || ^6.0 || ^7.0",
         "symfony/form": "^4.4.20 || ^5.4 || ^6.0 || ^7.0",
         "symfony/validator": "^4.4 || ^5.4 || ^6.0 || ^7.0",
@@ -52,7 +52,7 @@
         "omnipay/common": "^3@dev",
         "omnipay/dummy": "^3@alpha",
         "omnipay/paypal": "^3@dev",
-        "payum/offline": "^1.7",
+        "payum/offline": "dev-master",
         "payum/paypal-express-checkout-nvp": "^1.7",
         "payum/stripe": "^1.7",
         "payum/omnipay-v3-bridge": "dev-master",
@@ -90,5 +90,9 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {"type": "vcs", "url": "git@github.com:soyuka/Payum"}
+
+    ]
 }
